@@ -35,6 +35,8 @@ vendor/etc/bluetooth/nvm/1121hpnv10.bin
 vendor/etc/bluetooth/nvm/1122hpnv10.bin
 
 # Camera
+odm/lib64/camera/com.qti.sensor.imx481.so:vendor/lib64/camera/com.qti.sensor.imx481.so
+odm/lib64/camera/com.qti.sensor.s5k3m5.so:vendor/lib64/camera/com.qti.sensor.s5k3m5.so
 vendor/etc/camera/ashdr/ncf_pack_imx471.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx686.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx689.ncf
