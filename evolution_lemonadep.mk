@@ -22,13 +22,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/lemonadep/device.mk)
 
 # Inherit some common Xtended stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-PRODUCT_NAME := xtended_lemonadep
+PRODUCT_NAME := evolution_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := LE2123
+PRODUCT_MODEL := LE2121
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
