@@ -26,6 +26,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 EVO_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1440
+EXTRA_UDFPS_ANIMATIONS := true
 
 PRODUCT_NAME := evolution_lemonadep
 PRODUCT_DEVICE := lemonadep
